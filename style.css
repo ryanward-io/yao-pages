@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+}
+
+.mood {
+  background: url('img/background-filler.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 30px;
+  padding: 2% 10% 2% 10%;
+  font-weight: bold;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: None;
+  padding: 0px;
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.footer {
+  background-color: #3D3D3A;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: auto;
+}
+
+.hero {
+  /* background-color: #1F2937; */
+  color: #F9FAF8;
+  padding: 0% 5% 5% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 90%;
+  gap: 80px;
+  flex-wrap: wrap;
+  flex: 1
+}
+
+.hero h1 {
+  font-size: 72px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+img {
+  width: 70%;
+  height: fit-content;
+}
+
+.content {
+  padding: 2% 15% 2% 15%;
+  flex: 1;
+}
+
+.content h3 {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 18pt;
+  margin: 20px 0;
+}
+
+p {
+  padding: 0.4em 0;
+  font-weight: 300;
+  font-size: 18px;
+}
